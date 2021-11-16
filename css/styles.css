@@ -190,7 +190,7 @@ body {
       rgba(47, 48, 58, 0.4)
     ),
     url(../images/main.jpg);
-
+  background-color: #c4c4c4;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -225,7 +225,6 @@ body {
 .main-btn:focus {
   background-color: var(--second-btn-color);
 }
-/*--------------OVERLAY-----------*/
 
 /*--------------SECTION----------*/
 
@@ -235,6 +234,19 @@ body {
 
 .section-item:not(:last-child) {
   margin-right: 30px;
+}
+
+.section-item {
+  flex-basis: calc((100% - 90px) / 4);
+}
+
+.section-item::before {
+  content: "";
+  display: block;
+  height: 120px;
+  margin-bottom: 30px;
+  background: #f5f4fa;
+  border-radius: 4px;
 }
 
 .about {
@@ -272,10 +284,6 @@ body {
   color: var(--primary-title-color);
   text-transform: uppercase;
   margin-bottom: 10px;
-}
-
-.section-item {
-  flex-basis: calc((100% - 90px) / 4);
 }
 
 .section-text {
