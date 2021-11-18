@@ -177,23 +177,10 @@ body {
 
 /*----------------MAIN------------*/
 .main {
+  background-color: #2f303a;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-
-  height: 600px;
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(../images/main.jpg);
-  background-color: #c4c4c4;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .main-title {
@@ -227,17 +214,12 @@ body {
 }
 
 /*--------------SECTION----------*/
-
 .section-list {
   display: flex;
 }
 
 .section-item:not(:last-child) {
   margin-right: 30px;
-}
-
-.section-item {
-  flex-basis: calc((100% - 90px) / 4);
 }
 
 .about {
@@ -275,6 +257,10 @@ body {
   color: var(--primary-title-color);
   text-transform: uppercase;
   margin-bottom: 10px;
+}
+
+.section-item {
+  flex-basis: calc((100% - 90px) / 4);
 }
 
 .section-text {
