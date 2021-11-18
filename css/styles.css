@@ -240,15 +240,6 @@ body {
   flex-basis: calc((100% - 90px) / 4);
 }
 
-.section-item::before {
-  content: "";
-  display: block;
-  height: 120px;
-  margin-bottom: 30px;
-  background: #f5f4fa;
-  border-radius: 4px;
-}
-
 .about {
   padding-top: 0;
 }
