@@ -304,6 +304,12 @@ body {
   font-size: 16px;
   line-height: 1.19;
   color: var(--text-color);
+  margin-bottom: 16px;
+}
+
+.command-social-list {
+  display: flex;
+  justify-content: center;
 }
 
 .command-social-item {
@@ -311,6 +317,13 @@ body {
   height: 44px;
 }
 
+.command-social-item + .command-social-item {
+  margin-left: 10px;
+}
+
+.command-social-icon {
+  fill: #212121;
+}
 .command-social-link {
   width: 100%;
   height: 100%;
