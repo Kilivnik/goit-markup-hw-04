@@ -277,6 +277,17 @@ body {
   background: #f5f4fa;
 }
 
+.section-item-link {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
 .section-title {
   font-weight: 700;
   font-size: 14px;
@@ -355,7 +366,9 @@ body {
 .command-social-link {
   width: 100%;
   height: 100%;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #ffffff;
   border-radius: 50%;
 }
