@@ -383,6 +383,38 @@ body {
   border-radius: 50%;
 }
 
+.regular-client {
+  color: #e5e5e5;
+}
+
+.regular-client-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  color: var(--primary-title-color);
+}
+
+.regular-client-list {
+  display: flex;
+}
+
+.regular-client-item {
+  width: 170px;
+  height: 92px;
+  display: block;
+
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.regular-client-item + .regular-client-item {
+  margin-left: 30px;
+}
+
 /*---------------FOOTER----------*/
 .footer {
   background-color: var(--footer-color);
