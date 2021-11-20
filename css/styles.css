@@ -315,6 +315,7 @@ body {
 .command-social-item {
   width: 44px;
   height: 44px;
+  cursor: pointer;
 }
 
 .command-social-item + .command-social-item {
@@ -322,13 +323,13 @@ body {
 }
 
 .command-social-icon {
-  fill: #212121;
+  fill: rgba(175, 177, 184, 1);
 }
 .command-social-link {
   width: 100%;
   height: 100%;
   display: block;
-  background-color: tomato;
+  background-color: #ffffff;
   border-radius: 50%;
 }
 
