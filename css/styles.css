@@ -139,6 +139,9 @@ body {
   color: var(--link-text-color);
   padding-top: 32px;
   padding-bottom: 32px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .header-mail:hover,
@@ -165,10 +168,18 @@ body {
 
 .header-connect {
   margin-left: auto;
+  justify-content: center;
 }
 
 .header-list {
   display: flex;
+  justify-content: center;
+}
+
+.header-mail-icon,
+.header-tel-icon {
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 .header-item:not(:last-child) {
