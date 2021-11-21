@@ -366,6 +366,7 @@ body {
   background-color: var(--accent-color);
   fill: var(--second-text-btn-color);
 }
+
 .command-social-item + .command-social-item {
   margin-left: 10px;
 }
@@ -460,10 +461,6 @@ body {
   margin-bottom: 9px;
 }
 
-.footer-address {
-  width: 231px;
-}
-
 .footer-map {
   font-style: normal;
   font-size: 14px;
@@ -497,7 +494,7 @@ body {
 .footer-social {
   display: block;
   align-items: center;
-  justify-content: center;
+  margin-left: 70px;
 }
 
 .footer-social-title {
@@ -507,7 +504,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-  text-align: center;
   margin-bottom: 20px;
 }
 
@@ -527,6 +523,12 @@ body {
 .footer-social-icon {
   fill: var(--second-text-btn-color);
 }
+
+.footer-social-item:hover .footer-social-link,
+.footer-social-item:focus .footer-social-link {
+  background-color: var(--accent-color);
+}
+
 .footer-social-link {
   width: 100%;
   height: 100%;
