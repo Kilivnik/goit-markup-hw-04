@@ -356,15 +356,15 @@ body {
   cursor: pointer;
 }
 
-.command-social-item:hover .command-social-link,
-.command-social-item:focus .command-social-link {
-  background-color: var(--accent-color);
+.command-social-link:focus,
+.command-social-link:hover {
+  background-color: var(--primary-btn-color);
 }
 
 .command-social-link:hover .command-social-icon,
 .command-social-link:focus .command-social-icon {
-  background-color: var(--accent-color);
   fill: var(--second-text-btn-color);
+  background-color: var(--primary-btn-color);
 }
 
 .command-social-item + .command-social-item {
@@ -374,13 +374,14 @@ body {
 .command-social-icon {
   fill: rgba(175, 177, 184, 1);
 }
+
 .command-social-link {
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #ffffff;
+  background-color: var(--primary-color);
   border-radius: 50%;
 }
 
@@ -524,8 +525,8 @@ body {
   fill: var(--second-text-btn-color);
 }
 
-.footer-social-item:hover .footer-social-link,
-.footer-social-item:focus .footer-social-link {
+.footer-social-link:hover,
+.footer-social-link:focus {
   background-color: var(--accent-color);
 }
 
