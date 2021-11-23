@@ -277,6 +277,10 @@ body {
   background: #f5f4fa;
 }
 
+.about-command-bottom {
+  background: var(--primary-color);
+}
+
 .section-item-link {
   width: 270px;
   height: 120px;
